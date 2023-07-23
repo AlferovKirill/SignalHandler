@@ -81,8 +81,6 @@ private:
     std::vector<double> xData_acf;
     std::vector<std::complex<double>> yData_acf;
 
-    // Опорная функция и результат сжатия
-
     // Опорная функция
     std::vector<double> xCompData_t;
     std::vector<std::complex<double>> yCompData_t;
@@ -94,5 +92,4 @@ private:
     // Сжатая АКФ
     std::vector<double> xCompData_acf;
     std::vector<std::complex<double>> yCompData_acf;
-
 };

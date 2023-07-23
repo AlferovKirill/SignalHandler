@@ -29,10 +29,6 @@ void SignalSocketManager::sendDatagram(const QString& destinationHost, int desti
     QByteArray datagramParametrs(reinterpret_cast<char*>(&parametrs), sizeof(parametrs));
     udpSocket->writeDatagram(datagramParametrs, QHostAddress(destinationHost), destinationPort);
 
-    qDebug() << "Отправка по адресу: " << destinationHost << ":" << destinationPort;
-    qDebug() << "Количество отправленных полных пакетов без учёта остатка: " << parametrs.m_num_frame;
-    qDebug() << "Общий размер отправленных пакетов: " << parametrs.m_udp_size;
-
     if (parametrs.m_udp_size != 0) {
         int packetElemSize = (packetByteSize / sizeof(std::complex<double>));
 
@@ -50,6 +46,8 @@ void SignalSocketManager::sendDatagram(const QString& destinationHost, int desti
         datagramBufferComplexResidue.resize(packetByteSize);
 
         udpSocket->writeDatagram(datagramBufferComplexResidue, QHostAddress(destinationHost), destinationPort);
+
+        QThread::sleep(0.01);
     }
 }
 
@@ -68,7 +66,9 @@ void SignalSocketManager::slotReadPendingDatagrams() {
         datagram.resize(udpSocket->pendingDatagramSize());
         udpSocket->readDatagram(datagram.data(), datagram.size());
 
-        if (!dataTransfer && (datagram.size() == sizeof(LFM::Parametrs))) {
+        bool isParametrsPacket = (datagram.size() == sizeof(LFM::Parametrs)) && (reinterpret_cast<LFM::Parametrs*>(datagram.data())->m_packet == static_cast<char>(0xAA));
+
+        if (!dataTransfer && isParametrsPacket) {
             signalParametrs = *reinterpret_cast<LFM::Parametrs*>(datagram.data());
             dataTransfer = true;
 
@@ -95,10 +95,6 @@ void SignalSocketManager::slotReadPendingDatagrams() {
 
                 framesNumTransmitted = 0;
                 dataTransfer = false;
-
-                qDebug() << "Прием закончен!";
-                qDebug() << "Получено байт: " << signalParametrs.m_udp_size;
-                qDebug() << "Получено пакетов с учётом остатка (1456 байт): " << signalParametrs.m_num_frame;
 
                 emit arrivalDatagram();
             }

@@ -201,8 +201,6 @@ void SignalHandlerMath::compression(std::vector<double>& xNCompData_t, std::vect
         fftw_free(in);
         fftw_free(out);
 
-        //swap_acf(yDataACFCompression);
-
         xNCompData_t = std::move(xDataTCompression);
         yNCompData_t = std::move(yDataTCompression);
 
@@ -375,7 +373,7 @@ LFM::Parametrs SignalHandlerMath::getLFMParametrs() {
     parametrs.m_sample_rate = Fd;
     parametrs.m_frequencies = frequency;
     parametrs.m_tau = signal_duration;
-    parametrs.m_delta_f = Fmax - frequency;
+    parametrs.m_delta_f = (Fmax == 0) ? (Fmax) : (Fmax - frequency);
     parametrs.m_udp_size = yData_t.size() * sizeof(std::complex<double>);
     parametrs.m_num_frame = parametrs.m_udp_size / packetByteSize;
 

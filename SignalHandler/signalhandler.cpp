@@ -249,7 +249,6 @@ void SignalHandler::print() {
     reGraph_3->attach(d_plot_3);
     rePoints_acf.clear();
 
-    //-----------------------------------
     for (size_t i = 0; i < signalHandlerMath->getXCompData_t().size(); ++i) {
         rePoints_t << QPointF(signalHandlerMath->getXCompData_t()[i], signalHandlerMath->getYCompData_t()[i].real());
     }
@@ -273,7 +272,6 @@ void SignalHandler::print() {
     reGraph_6->setSamples(rePoints_acf);
     reGraph_6->attach(d_plot_3);
     rePoints_acf.clear();
-    //-----------------------------------
 
     d_plot_1->replot();
     d_plot_2->replot();
