@@ -13,9 +13,8 @@
 <h1 align="center">How to install?</h1>
 
 ```console
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+pwd
+ls -hl
 ```
 
 <h1 align="center">How does it work?</h1>
