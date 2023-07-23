@@ -14,12 +14,14 @@
 <p align="justify">It is assumed that you are already familiar with C++, Qt and have basic console skills. However, if this is not the case and you don't know much about the subject, or just don't want to bother, just copy the following commands into your terminal (for Debian or Ubuntu like).</p>
 
 <p align="justify">To install Qt and QtCreator:</p>
+
 ```console
 sudo apt install qtbase5-dev
 sudo apt install qtcreator
 ```
 
 <p align="justify">To install a few necessary libs:</p>
+
 ```console
 sudo apt install libfftw3-dev
 sudo apt install libqwt-qt5-dev
