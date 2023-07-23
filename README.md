@@ -1,5 +1,5 @@
 <h1 align="center">What is it?</h1>
-<p align="justify">This is my summer internship project at a cool and well-known Russian aviation company. The task was to create an application for formation and correlation processing of LFM radar signals with realization of inter-network interaction between separate modules.</p>
+<p align="justify">This is my summer internship project at a cool and well-known russian aviation company. The task was to create an application for formation and correlation processing of LFM radar signals with realization of inter-network interaction between separate modules.</p>
 
 <p align="justify">Stages of the task:</p>
 <ol>
@@ -25,6 +25,12 @@ sudo apt install qtcreator
 ```console
 sudo apt install libfftw3-dev
 sudo apt install libqwt-qt5-dev
+```
+
+<p align="justify">Congratulations, you've downloaded all the stuff you need. Now all that's required is to download the project, you can do this via the website itself or again via the console as shown below, having first moved to the directory where you want to work with the project.</p>
+
+```console
+git clone https://github.com/AlferovKirill/SignalHandler
 ```
 
 <h1 align="center">How does it work?</h1>
