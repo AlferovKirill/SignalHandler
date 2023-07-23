@@ -12,7 +12,7 @@
 
 <h1 align="center">How to install?</h1>
 
-```ruby
+```console
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
