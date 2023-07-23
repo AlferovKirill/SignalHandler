@@ -13,5 +13,12 @@
 </ol>
 
 <h2 align="right">How does it work?</h2>
-<img src="https://user-images.githubusercontent.com/59083480/234589697-dcb37ff3-a599-43df-825a-7ff6bd257ba2.mp4">
-<p align="center">Networking Demonstration</p>
+
+<img src="https://user-images.githubusercontent.com/59083480/255423011-33064b57-adb7-4ae7-bb6a-51a10a7c6ac2.png">
+<p align="center">Sender demonstration work</p>
+
+<img src="https://user-images.githubusercontent.com/59083480/255423013-1ed6e458-b671-4723-b95a-0fa298eda371.png">
+<p align="center">Receiver demonstration work</p>
+
+<img src="https://user-images.githubusercontent.com/59083480/255423017-01765413-960f-4d6f-93e3-98f0f08bd44a.mp4">
+<p align="center">Networking demonstration video</p>
