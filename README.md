@@ -13,8 +13,11 @@
 <h1 align="center">How to install?</h1>
 
 ```console
-pwd
-ls -hl
+sudo apt install qtbase5-dev
+sudo apt install qtcreator
+
+sudo apt install libfftw3-dev
+sudo apt install libqwt-qt5-dev
 ```
 
 <h1 align="center">How does it work?</h1>
