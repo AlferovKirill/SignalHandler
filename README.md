@@ -11,7 +11,12 @@
 </ol>
 
 <h1 align="center">How to install?</h1>
-<p align="center">Sender demonstration work in network</p>
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 <h1 align="center">How does it work?</h1>
 
