@@ -10,6 +10,9 @@
   <li align="justify">Realization of algorithms of coordinated filtering of received radar signals and their visualization in the program interface with provision of possibility of displaying specific values of points on the graph, maximum signal level and side lobe levels of the compressed signal side lobes of the compressed signal.</li>
 </ol>
 
+<h1 align="center">How to install?</h1>
+<p align="center">Sender demonstration work in network</p>
+
 <h1 align="center">How does it work?</h1>
 
 <img src="https://user-images.githubusercontent.com/59083480/255423011-33064b57-adb7-4ae7-bb6a-51a10a7c6ac2.png">
@@ -18,5 +21,5 @@
 <img src="https://user-images.githubusercontent.com/59083480/255423013-1ed6e458-b671-4723-b95a-0fa298eda371.png">
 <p align="center">Receiver demonstration work in network</p>
 
-<img src="https://user-images.githubusercontent.com/59083480/255423017-01765413-960f-4d6f-93e3-98f0f08bd44a.mp4">
+<img src="https://user-images.githubusercontent.com/59083480/255423725-f32a0db8-7cee-4d99-809b-855846bcc46a.mp4">
 <p align="center">Demonstration video in local</p>
