@@ -1,5 +1,6 @@
 <h1 align="center">SignalHandler</h1>
 
+<h2 align="center">What is it?</h2>
 <p align="justify">This is my summer internship project at a cool and well-known Russian aviation company. The task was to create an application for formation and correlation processing of LFM radar signals with realization of inter-network interaction between separate modules.</p>
 
 <p align="justify">Stages of the task:</p>
@@ -11,4 +12,6 @@
   <li align="justify">Realization of algorithms of coordinated filtering of received radar signals and their visualization in the program interface with provision of possibility of displaying specific values of points on the graph, maximum signal level and side lobe levels of the compressed signal side lobes of the compressed signal.</li>
 </ol>
 
+<h2 align="center">How does it work?</h2>
+<p align="justify">Networking Demonstration</p>
 <img src="https://user-images.githubusercontent.com/59083480/234589697-dcb37ff3-a599-43df-825a-7ff6bd257ba2.mp4">
