@@ -197,6 +197,8 @@ void SignalHandlerMath::compression(std::vector<double>& xNCompData_t, std::vect
             yDataACFCompression.push_back(20.0 * std::log10(spectrum));
         }
 
+        swap_acf(yDataACFCompression);
+
         fftw_destroy_plan(plan);
         fftw_free(in);
         fftw_free(out);

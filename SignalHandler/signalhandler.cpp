@@ -29,7 +29,7 @@ SignalHandler::SignalHandler(QWidget *parent) : QMainWindow(parent), ui(new Ui::
     d_plot_3->setAutoReplot(true);
 
     d_plot_3->setAxisTitle(QwtPlot::yLeft, "R(t), Дж");
-    d_plot_3->setAxisTitle(QwtPlot::xBottom, "f, c");
+    d_plot_3->setAxisTitle(QwtPlot::xBottom, "t, c");
     d_plot_3->insertLegend(new QwtLegend());
 
     // Расположение графиков
