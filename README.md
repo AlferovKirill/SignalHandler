@@ -7,7 +7,7 @@
   <li align="justify">Mathematical modeling of reflected radar LFM signals from point targets with implementation based on fftw3 and C++/Qt5.</li>
   <li align="justify">Implementation of a module for reception of reflections of radar signals and their subsequent visualization based on Qt5 framework and Qwt library.</li>
   <li align="justify">Organization of network communication via Ethernet protocol Ethernet between the main modules of the program.</li>
-  <li align="justify">Implementation of Received Radar Signals Coordinated Filtering algorithms and their visualization in the program interface with provision of possibility of displaying specific values of points on the graph, maximum signal level and side lobe levels of the compressed signal side lobes of the compressed signal.</li>
+  <li align="justify">Implementation of Received Radar Signals Coordinated Filtering algorithms and their visualization in the program interface with provision of possibility of displaying specific values of points on the graph, the maximum signal level and the levels of the side lobes of the compressed signal.</li>
 </ol>
 
 <h1 align="center">How to install?</h1>
