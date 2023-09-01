@@ -1,5 +1,5 @@
 <h1 align="center">What is it?</h1>
-<p align="justify">This is my summer internship project at a cool and well-known russian aviation company. The task was to create an application for formation and correlation processing of LFM radar signals with implementation of inter-network interaction between separate modules.</p>
+<p align="justify">This is my assignment for a summer production practice. The task was to create an application for formation and correlation processing of LFM radar signals with implementation of inter-network interaction between separate modules.</p>
 
 <p align="justify">Stages of the task:</p>
 <ol>
