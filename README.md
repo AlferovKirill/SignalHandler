@@ -42,6 +42,4 @@ git clone https://github.com/AlferovKirill/SignalHandler
 <p align="center">Receiver demonstration work in network</p>
 
 https://github.com/AlferovKirill/SignalHandler/assets/59083480/ce9b1e6d-d54f-43b1-8a8e-81e88e68ae6e
-
-<img src="https://github.com/AlferovKirill/SignalHandler/assets/59083480/ce9b1e6d-d54f-43b1-8a8e-81e88e68ae6e">
 <p align="center">Demonstration video in local</p>
