@@ -35,11 +35,6 @@ git clone https://github.com/AlferovKirill/SignalHandler
 
 <h1 align="center">How does it work?</h1>
 
-![sender](https://github.com/AlferovKirill/SignalHandler/assets/59083480/60f06de8-5ebc-44ac-b5a9-5ab527e38506)
-![receiver](https://github.com/AlferovKirill/SignalHandler/assets/59083480/095da701-ade6-4fd8-bbf6-f888950b0f63)
-
-https://github.com/AlferovKirill/SignalHandler/assets/59083480/ce9b1e6d-d54f-43b1-8a8e-81e88e68ae6e
-
 <img src="![sender](https://github.com/AlferovKirill/SignalHandler/assets/59083480/60f06de8-5ebc-44ac-b5a9-5ab527e38506)">
 <p align="center">Sender demonstration work in network</p>
 
